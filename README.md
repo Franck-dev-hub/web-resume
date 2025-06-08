@@ -17,7 +17,7 @@ Check out the live version [here](https://franck-dev-hub.github.io/web-resume/)
 ### 📥 Installation & Usage
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Franck-dev-hub/cv.git
+   git clone https://github.com/Franck-dev-hub/web-resume.git
    ```
 2. Open `HTML/index-en.html` or `HTML/index-fr.html` in your browser.
 
@@ -33,6 +33,10 @@ No dependencies or installation required.
 ## 📁 Project Structure
 ```
 .
+├── assets
+│   ├── cv.pdf
+│   ├── github.png
+│   └── linkedin.png
 ├── CSS
 │   ├── base.css
 │   ├── contact.css
@@ -47,12 +51,8 @@ No dependencies or installation required.
 │   ├── sidebar.css
 │   └── timeline.css
 ├── HTML
-│   ├── index-en.html
-│   └── index-fr.html
-├── images
-│   ├── cv.pdf
-│   ├── github.png
-│   └── linkedin.png
+│   └── index-en.html
+├── index.html
 ├── JS
 │   └── dark_mode.js
 ├── LICENSE
@@ -68,7 +68,9 @@ If you encounter issues, ensure:
 - [Franck-dev-hub](https://github.com/Franck-dev-hub) – Franck S.
 
 ## 📝 Version History
-- **v1.0.0**:
+- **v1.1**:
+    - Fix bad links / badges
+- **v1.0**:
     - Initial Release
 
 ## 📜 License
