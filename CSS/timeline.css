@@ -1,0 +1,71 @@
+/* Timeline */
+.timeline {
+  position: relative;
+  padding-left: 2.5rem;
+  margin-left: 2.5rem;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #3B82F6;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 1rem;
+  min-height: 50px;
+}
+.timeline-dot {
+  position: absolute;
+  left: -0.8rem;
+  top: 23px;
+  width: 14px;
+  height: 14px;
+  background: #3B82F6;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px #3B82F6;
+}
+
+.timeline-item:hover .timeline-dot {
+  box-shadow: 0 0 5px 2px #3B82F6;
+  transform: scale(1.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.timeline-date {
+  position: absolute;
+  left: -120px;
+  top: 8px;
+  width: 100px;
+  text-align: right;
+  font-size: 0.95rem;
+  color: #6b7280;
+  font-weight: 500;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.company {
+  font-weight: 700;
+  font-style: italic;
+  color: #2563eb;
+}
+
+.job-description ul {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.timeline-item details summary {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-item details[open] summary {
+  color: #1d4ed8;
+}

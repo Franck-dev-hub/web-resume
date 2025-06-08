@@ -1,0 +1,30 @@
+/* Links & Underline */
+a {
+  color: #3B82F6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover { font-weight: 600; }
+
+.underline {
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #3B82F6;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+.underline:hover { color: #2563eb; }
+.underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

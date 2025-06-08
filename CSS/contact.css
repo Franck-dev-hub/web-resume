@@ -1,0 +1,24 @@
+/* Contact & Social */
+.contact-row, .contact-info {
+  display: flex;
+  gap: 1.25rem;
+}
+.contact-row {
+  justify-content: space-between;
+}
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.qrcode {
+  display: inline-block;
+  border: 2px solid #3B82F6;
+  border-radius: 12.5px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.qrcode img { display: block; }
+
+.qrcode:hover { transform: scale(1.3); }

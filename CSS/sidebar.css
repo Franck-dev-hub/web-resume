@@ -1,0 +1,22 @@
+/* Sidebar Navigation */
+.main-sidebar nav ul {
+  list-style: none;
+}
+.main-sidebar nav ul li {
+  margin-bottom: 0.75rem;
+}
+.sidebar-link {
+  display: block;
+  background: #DBEAFE;
+  border-radius: 6px;
+  color: #111;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar-link:hover {
+  background: #add0ff;
+  padding-left: 1.75rem;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+}

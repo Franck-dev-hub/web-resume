@@ -1,0 +1,138 @@
+/* ====== DARK MODE SUPPORT ====== */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+/* Layout */
+body.dark-mode .main-content {
+  background-color: #2a2a2a;
+  box-shadow: none;
+}
+body.dark-mode .main-sidebar {
+  background-color: #111;
+}
+
+/* Headings */
+body.dark-mode h1,
+body.dark-mode h2 {
+  color: #5ccfd6;
+}
+
+body.dark-mode h3 {
+  color: #fff;
+}
+
+body.dark-mode h1::after,
+body.dark-mode h3::after {
+  background-color: #5ccfd6;
+}
+body.dark-mode h1:hover {
+  color: #fff;
+}
+body.dark-mode h3 {
+  color: #fff;
+}
+body.dark-mode h3:hover {
+  color: #5ccfd6;
+}
+
+/* Text & Lists */
+body.dark-mode p,
+body.dark-mode li {
+  color: #ccc;
+}
+
+/* Links & Underline */
+body.dark-mode a {
+  color: #4fc3f7;
+}
+body.dark-mode a:hover {
+  color: #81d4fa;
+  font-weight: 600;
+}
+body.dark-mode .underline {
+  color: #fff;
+}
+body.dark-mode .underline::after {
+  background: #4fc3f7;
+}
+body.dark-mode .underline:hover {
+  color: #81d4fa;
+}
+
+/* Sidebar Navigation */
+body.dark-mode .sidebar-link {
+  background-color: #223643;
+  color: #e0e0e0;
+}
+body.dark-mode .sidebar-link:hover {
+  background-color: #2f4858;
+  color: #fff;
+}
+
+body.dark-mode .qrcode {
+  border: 2px solid #5ccfd6;
+}
+
+/* Controls */
+body.dark-mode .cv-controls button {
+  background-color: #5ccfd6;
+  color: #111;
+}
+body.dark-mode .cv-controls button:hover {
+  background-color: #39b1b9;
+  box-shadow: 0 4px 6px rgba(92, 207, 214, 0.5);
+}
+body.dark-mode .set-controls button {
+  background-color: #222c;
+  color: #e0e0e0;
+}
+body.dark-mode .set-controls button:hover {
+  background-color: #333c;
+}
+
+/* Details */
+body.dark-mode details {
+  background-color: #2d2d2d;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.05);
+  color: #ccc;
+}
+body.dark-mode details[open] {
+  background-color: #374151;
+}
+body.dark-mode details ul {
+  color: #aaa;
+}
+
+/* Timeline */
+body.dark-mode .timeline::before {
+  background: #5ccfd6;
+}
+body.dark-mode .timeline-dot {
+  background: #5ccfd6;
+  border-color: #2a2a2a;
+  box-shadow: 0 0 5px #5ccfd6;
+}
+body.dark-mode .timeline-item:hover .timeline-dot {
+  box-shadow: 0 0 5px 2px #5ccfd6;
+}
+body.dark-mode .timeline-date {
+  color: #b0b0b0;
+}
+body.dark-mode .timeline-item details[open] summary {
+  color: #5ccfd6;
+}
+body.dark-mode company {
+  color: #5ccfd6;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+  body.dark-mode .main-sidebar {
+    background-color: #111;
+  }
+  body.dark-mode .main-content {
+    background-color: #232323;
+  }
+}
