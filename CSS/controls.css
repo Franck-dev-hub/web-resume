@@ -16,7 +16,7 @@
   transition: background 0.3s ease, transform 0.2s ease;
 }
 .cv-controls button:hover {
-  background: #2563eb;
+  background: #2563EB;
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(37, 99, 235, 0.5);
 }

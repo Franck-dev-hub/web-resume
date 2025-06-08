@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../CSS/controls.css">
   <link rel="stylesheet" href="../CSS/dark_mode.css">
   <link rel="stylesheet" href="../CSS/details.css">
+  <link rel="stylesheet" href="../CSS/dropdown.css">
   <link rel="stylesheet" href="../CSS/headings.css">
   <link rel="stylesheet" href="../CSS/layout.css">
   <link rel="stylesheet" href="../CSS/links.css">
@@ -28,17 +29,16 @@
       <h3>SPADOTTO FRANCK</h3>
         <nav>
           <ul>
-            <li><a href="#top" class="sidebar-link">🏠 Home</a></li>
             <li><a href="#profil" class="sidebar-link">👤 Profile</a></li>
             <li><a href="#contact" class="sidebar-link">📞 Contact</a></li>
             <li><a href="#competences-techniques" class="sidebar-link">💻 Technical Skills</a></li>
             <li><a href="#personal-skills" class="sidebar-link">🧠 Personal Skills</a></li>
             <li><a href="#experiences" class="sidebar-link">📅 Experience</a></li>
-            <li><a href="#formation" class="sidebar-link">🎓 Education</a></li>
+            <li><a href="#education" class="sidebar-link">🎓 Education</a></li>
+            <li><a href="#certifications" class="sidebar-link">📜 Certifications</a></li>
+            <li><a href="#self_education" class="sidebar-link">📚 Self Education</a></li>
             <li><a href="#projets" class="sidebar-link">🚀 Projects</a></li>
             <li><a href="#interets" class="sidebar-link">⭐ Interests</a></li>
-            <li><div class="cv-controls" style="display: flex; justify-content: center;"><a href="../assets/cv.pdf" download><button>Download CV (PDF)</button></a></li>
-            <li><div class="cv-controls" style="display: flex; justify-content: center;"><a href="../assets/cv.pdf" download><button>International Format (PDF)</button></a></li>
           </ul>
       </nav>
     </aside>  
@@ -49,6 +49,14 @@
         <h1>Web & Mobile Developer</h1>
       </header>
 
+      <!-- SETTINGS BUTTONS -->
+      <div class="set-controls">
+        <a href="#top"><button>⬆️</button></a>
+        <a href="../index.html"><button>🇫🇷</button></a>
+        <button id="toggle-theme">🌗</button>
+        <a href="#bottom"><button>⬇️</button></a>
+      </div>
+
       <!-- PROFILE -->
       <section id="profil">
         <h2>Profile</h2>
@@ -56,14 +64,14 @@
           backed by a rich industrial background. Solid full-stack development skills,
           supported by professional experience in precision mechanics, team management,
           and industrial project leadership. Adaptability, curiosity, and rigour in service of innovation.</p>
+        <div class="dropdown">
+          <button class="dropdown-button">📄 Download resume</button>
+          <div class="dropdown-content">
+            <a href="assets/cv.pdf" download>🇫🇷 Standard (PDF)</a>
+            <a href="assets/cv-ue.pdf" download>🌍 International (PDF)</a>
+          </div>
+        </div>
       </section>
-
-      <div class="set-controls">
-        <a href="#top"><button>⬆️</button></a>
-        <a href="../index.html"><button>🇫🇷</button></a>
-        <button id="toggle-theme">🌗</button>
-        <a href="#bottom"><button>⬇️</button></a>
-      </div>
 
       <!-- CONTACT -->
       <section id="contact">
@@ -202,7 +210,7 @@
             <img src="https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=white" alt="Zoom">
           </p>
         </details>
-</section>
+      </section>
 
       <!-- PERSONAL SKILLS -->
       <section id="personal-skills">
@@ -306,7 +314,7 @@
       </section>
 
       <!-- EDUCATION -->
-      <section id="formation">
+      <section id="education">
         <h2>Education</h2>
         <div class="timeline">
 
@@ -364,10 +372,97 @@
         </div>
       </section>
 
+      <!-- CERTIFICATIONS -->
+      <section id="certifications">
+        <h2>Certifications</h2>
+          <details>
+            <summary><span class="underline">Health</span></summary>
+            <ul>
+              <li>First Aid Training<h5>Last training on: 2 Oct 2023</h5></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Safety</span></summary>
+            <ul>
+              <li>Guide & Tail-end Person<h5>Last training on: 22 May 2023</h5></li>
+              <li>Internal CACES<h5>Last training on: 20 April 2023</h5></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Electricity</span></summary>
+            <ul>
+              <li>BS-BE<h5>Last training on: 16 March 2023</h5></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Manual Trades</span></summary>
+            <ul>
+              <li><strong>Medieval Forging and Artistic Cutlery</strong><br>
+                Professional training<br>
+                Mercus (09) on 5 July 2013</li>
+              <li><strong>Luthiery</strong> with focus on electric guitar and bass<br>
+                Professional training<br>
+                Calmont (31) on 8 March 2023</li>
+            </ul>
+          </details>
+      </section>
+
+      <!-- SELF-EDUCATION -->
+      <section id="self_education">
+        <h2>Self-education</h2>
+          <details>
+            <summary><span class="underline">OpenClassrooms</span></summary>
+            <ul>
+              <li>Take back control with Linux!</li>
+              <li>Learn to program in C</li>
+              <li>Put your website online</li>
+              <li>Create your website with HTML5 and CSS3</li>
+              <li>Analyse marketing data</li>
+              <li>AI Goal: get started with artificial intelligence</li>
+              <li>Master the fundamentals of Excel</li>
+              <li>Discover Python libraries for Data Science</li>
+              <li>Speak in public</li>
+              <li>Manage code with Git and GitHub</li>
+              <li>Set up your Python environment</li>
+              <li>Learn to use the command line in a terminal</li>
+              <li>Get started with Python for data analysis</li>
+              <li>Manage your time effectively</li>
+              <li>Learn how to learn</li>
+              <li>Develop your soft skills</li>
+              <li>Set up an information monitoring system</li>
+              <li>Understand the Web</li>
+              <li>Discover how algorithms work</li>
+              <li>Start your project with Python</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Udemy</span></summary>
+            <ul>
+              <li>Python: The Complete Course by Thibault Houdon</li>
+            </ul>
+          </details>
+      </section>
+
       <!-- PROJECTS -->
-      <section id="projets">
+      <section id="projects">
         <h2>Projects</h2>
-        <p>Currently under development – check my GitHub for more projects.</p>
+          <details>
+            <summary><span class="underline">Personal Projects</span></summary>
+            <ul>
+              <li>Test</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Open Source Projects</span></summary>
+            <ul>
+              <li>Test 2</li>
+            </ul>
+          </details>
       </section>
 
       <!-- INTERESTS -->

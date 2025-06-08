@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="CSS/controls.css">
   <link rel="stylesheet" href="CSS/dark_mode.css">
   <link rel="stylesheet" href="CSS/details.css">
+  <link rel="stylesheet" href="CSS/dropdown.css">
   <link rel="stylesheet" href="CSS/headings.css">
   <link rel="stylesheet" href="CSS/layout.css">
   <link rel="stylesheet" href="CSS/links.css">
@@ -28,17 +29,16 @@
       <h3>SPADOTTO FRANCK</h3>
         <nav>
           <ul>
-            <li><a href="#top" class="sidebar-link">🏠 Home</a></li>
-            <li><a href="#profil" class="sidebar-link">👤 Profile</a></li>
-            <li><a href="#contact" class="sidebar-link">📞 Contact</a></li>
-            <li><a href="#competences-techniques" class="sidebar-link">💻 Technical Skills</a></li>
-            <li><a href="#personal-skills" class="sidebar-link">🧠 Personal Skills</a></li>
-            <li><a href="#experiences" class="sidebar-link">📅 Experience</a></li>
-            <li><a href="#formation" class="sidebar-link">🎓 Education</a></li>
-            <li><a href="#projets" class="sidebar-link">🚀 Projects</a></li>
-            <li><a href="#interets" class="sidebar-link">⭐ Interests</a></li>
-            <li><div class="cv-controls" style="display: flex; justify-content: center;"><a href="assets/cv.pdf" download><button>Download CV (PDF)</button></a></li>
-            <li><div class="cv-controls" style="display: flex; justify-content: center;"><a href="assets/cv.pdf" download><button>International Format (PDF)</button></a></li>
+            <li><a href="#profil" class="sidebar-link">👤 Profil</a></li>
+            <li><a href="#contact" class="sidebar-link">📞 Contacts</a></li>
+            <li><a href="#competences-techniques" class="sidebar-link">💻 Compétences Techniques</a></li>
+            <li><a href="#personal-skills" class="sidebar-link">🧠 Compétences Personnelles</a></li>
+            <li><a href="#experiences" class="sidebar-link">📅 Expériences Professionnelles</a></li>
+            <li><a href="#education" class="sidebar-link">🎓 Formations</a></li>
+            <li><a href="#certifications" class="sidebar-link">📜 Certifications</a></li>
+            <li><a href="#self_education" class="sidebar-link">📚 Autoformations</a></li>
+            <li><a href="#projets" class="sidebar-link">🚀 Projets</a></li>
+            <li><a href="#interets" class="sidebar-link">⭐ Centres d’intérêt</a></li>
           </ul>
       </nav>
     </aside>
@@ -49,6 +49,14 @@
         <h1>Développeur Web & Mobile</h1>
       </header>
 
+      <!-- SETTINGS BUTTONS -->
+      <div class="set-controls">
+        <a href="#top"><button>⬆️</button></a>
+        <a href="HTML/index-en.html"><button>🇬🇧</button></a>
+        <button id="toggle-theme">🌗</button>
+        <a href="#bottom"><button>⬇️</button></a>
+      </div>
+
       <!-- PROFILE -->
       <section id="profil">
         <h2>Profil</h2>
@@ -56,14 +64,14 @@
           et un parcours riche en industrie. Solides compétences en développement full-stack,
           appuyées par une expérience professionnelle dans la mécanique de précision, le management d'équipe,
           et le pilotage de projets industriels. Adaptabilité, curiosité et rigueur au service de l’innovation.</p>
+        <div class="dropdown">
+          <button class="dropdown-button">📄 Télécharger le CV</button>
+          <div class="dropdown-content">
+            <a href="assets/cv.pdf" download>🇫🇷 Standard (PDF)</a>
+            <a href="assets/cv-ue.pdf" download>🌍 International (PDF)</a>
+          </div>
+        </div>
       </section>
-
-      <div class="set-controls">
-        <a href="#top"><button>⬆️</button></a>
-        <a href="HTML/index-en.html"><button>🇬🇧</button></a>
-        <button id="toggle-theme">🌗</button>
-        <a href="#bottom"><button>⬇️</button></a>
-      </div>
 
       <!-- CONTACT -->
       <section id="contact">
@@ -83,7 +91,7 @@
 
       <!-- TECHNICAL SKILLS -->
       <section id="competences-techniques">
-        <h2>Compétences techniques</h2>
+        <h2>Compétences Techniques</h2>
         <details>
           <summary><span class="underline">Langages de programmation</span></summary>
           <p>
@@ -202,13 +210,13 @@
             <img src="https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=white" alt="Zoom">
           </p>
         </details>
-</section>
+      </section>
 
       <!-- PERSONAL SKILLS -->
       <section id="personal-skills">
-        <h2>Compétences personnelles</h2>
+        <h2>Compétences Personnelles</h2>
           <details>
-            <summary><span class="underline">Compétences humaines</span></summary>
+            <summary><span class="underline">Compétences Humaines</span></summary>
             <ul>
               <li>Éthique professionnelle</li>
               <li>Travail en équipe</li>
@@ -245,7 +253,7 @@
           <div class="timeline-dot"></div>
           <details>
             <summary><span class="underline">Responsable d'équipe en usinage</span></summary>
-            <span class="span">LPF - SODAPEM (Auterive 31190)</span><br>
+            <span>LPF - SODAPEM (Auterive 31190)</span><br>
             <span class="job-description">
               <ul>
                 <li>Tourneur - Fraiseur sur CN</li>
@@ -261,7 +269,7 @@
             <div class="timeline-dot"></div>
             <details>
               <summary><span class="underline">Fraiseur sur CN</span></summary>
-              <span class="span">LPF - SODAPEM (Auterive 31190)</span><br>
+              <span>LPF - SODAPEM (Auterive 31190)</span><br>
               <span class="company">
                 <ul>
                   <li><strong>3 & 5 axes</strong> : Industrialisation, optimisation, sécurisation des processus, mise à jour, réglage et lancement de pièces</li>
@@ -277,7 +285,7 @@
             <div class="timeline-dot"></div>
             <details>
               <summary><span class="underline">Tourneur Fraiseur sur CN</span></summary>
-              <span class="span">REMAX (Flourens 31130)</span><br>
+              <span>REMAX (Flourens 31130)</span><br>
               <span class="company">
                 <ul>
                   <li><strong>2, 3 & 5 axes</strong> : Réglage et lancement de séries</li>
@@ -291,7 +299,7 @@
             <div class="timeline-dot"></div>
             <details>
               <summary><span class="underline">Employé commercial</span></summary>
-              <span class="span">SUPER U (Belberaud 31450)</span><br>
+              <span>SUPER U (Belberaud 31450)</span><br>
               <span class="company">
                 <ul>
                   <li>Gestion des commandes, des livraisons et du linéaire</li>
@@ -306,7 +314,7 @@
       </section>
 
       <!-- EDUCATION -->
-      <section id="formation">
+      <section id="education">
         <h2>Formations</h2>
         <div class="timeline">
 
@@ -364,11 +372,98 @@
         </div>
       </section>
 
+      <!-- CERTIFICATIONS -->
+      <section id="certifications">
+        <h2>Certifications</h2>
+          <details>
+            <summary><span class="underline">Santé</span></summary>
+            <ul>
+              <li>SST<h5>Dernière formation le : 2 Oct 2023</h5></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Sécurité</span></summary>
+            <ul>
+              <li>Guide file - Serre file<h5>Dernière formation le : 22 Mai 2023</h5></li>
+              <li>CACES interne<h5>Dernière formation le : 20 Avril 2023</h5></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Electricité</span></summary>
+            <ul>
+              <li>BS-BE<h5>Dernière formation le : 16 Mars 2023</h5></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Métiers manuels</span></summary>
+            <ul>
+              <li><strong>Forge médiévale et coutellerie d'art</strong><br>
+                Formation professionnelle<br>
+                Mercus (09) le 05 Juil 2013</li>
+              <li><strong>Lutherie</strong> option guitare et basse électrique<br>
+                Formation professionnelle<br>
+                Calmont (31) le 08 Mars 2023</li>
+            </ul>
+          </details>
+      </section>
+
+      <!-- AUTOFORMATION -->
+      <section id="self_education">
+        <h2>Autoformations</h2>
+          <details>
+            <summary><span class="underline">Openclassrooms</span></summary>
+            <ul>
+              <li>Reprenez le contrôle à l'aide de Linux !</li>
+              <li>Apprenez à programmer en C</li>
+              <li>Mettez en ligne votre site web</li>
+              <li>Créez votre site web avec HTML5 et CSS3</li>
+              <li>Analysez des données marketing</li>
+              <li>Objectif IA : initiez-vous à l'intelligence artificielle</li>
+              <li>Maîtrisez les fondamentaux d'Excel</li>
+              <li>Découvrez les librairies Python pour la Data Science</li>
+              <li>Prenez la parole en public</li>
+              <li>Gérez du code avec Git et GitHub</li>
+              <li>Mettez en place votre environnement Python</li>
+              <li>Apprenez à utiliser la ligne de commande dans un terminal</li>
+              <li>Initiez-vous à Python pour l'analyse de données</li>
+              <li>Gérez votre temps efficacement</li>
+              <li>Apprenez à apprendre</li>
+              <li>Développez vos soft skills</li>
+              <li>Mettez en place un système de veille informationnelle</li>
+              <li>Comprendre le Web</li>
+              <li>Découvrez le fonctionnement des algorithmes</li>
+              <li>Démarrez votre projet avec Python</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Udemy</span></summary>
+            <ul>
+              <li>Python : La Formation Complète par Thibault Houdon</li>
+            </ul>
+          </details>
+      </section>
+
       <!--  PROJECTS -->
       <section id="projets">
         <h2>Projets</h2>
-        <p>Projets en cours de développement. Retrouvez-en davantage sur mon GitHub.</p>
-      </section>
+          <details>
+            <summary><span class="underline">Projets perso</span></summary>
+            <ul>
+              <li>Test</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary><span class="underline">Projets Open Source</span></summary>
+            <ul>
+              <li>Test 2</li>
+            </ul>
+          </details>
+        </section>
 
       <!-- INTERESTS -->
       <section id="interets">
