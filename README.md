@@ -4,17 +4,19 @@ This project is an interactive, responsive, and multilingual CV built with HTML,
 
 ## 🚀 Quick Start
 ### ✅ Prerequisites
-- A modern web browser (Firefox, Brave, etc...)
+- A modern web browser (
+[![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
+[![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=Firefox&logoColor=white)](#) etc...)
 
 ### 🛠️ Technologies Used
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](#)
 
-### 🌐 Live Demo
-Check out the live version [here](https://franck-dev-hub.github.io/web-resume/)
-
 ### 📥 Installation & Usage
+
+#### 🔗 [Live Demo](https://franck-dev-hub.github.io/web-resume/)
+
 1. Clone this repository:
    ```sh
    git clone https://github.com/Franck-dev-hub/web-resume.git
