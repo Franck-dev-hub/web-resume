@@ -12,7 +12,7 @@ This project is an interactive, responsive, and multilingual CV built with HTML,
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](#)
 
 ### 🌐 Live Demo
-Check out the live version [here](https://franck-dev-hub.github.io/cv/)
+Check out the live version [here](https://franck-dev-hub.github.io/web-resume/)
 
 ### 📥 Installation & Usage
 1. Clone this repository:
