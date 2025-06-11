@@ -1,10 +1,11 @@
-/* Sidebar Navigation */
 .main-sidebar nav ul {
   list-style: none;
 }
+
 .main-sidebar nav ul li {
   margin-bottom: 0.75rem;
 }
+
 .sidebar-link {
   display: block;
   background: #DBEAFE;
@@ -15,6 +16,7 @@
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
+
 .sidebar-link:hover {
   background: #add0ff;
   padding-left: 1.75rem;

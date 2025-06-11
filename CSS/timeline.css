@@ -1,9 +1,9 @@
-/* Timeline */
 .timeline {
   position: relative;
   padding-left: 2.5rem;
   margin-left: 2.5rem;
 }
+
 .timeline::before {
   content: '';
   position: absolute;
@@ -13,11 +13,13 @@
   width: 3px;
   background: #3B82F6;
 }
+
 .timeline-item {
   position: relative;
   margin-bottom: 1rem;
   min-height: 50px;
 }
+
 .timeline-dot {
   position: absolute;
   left: -0.8rem;
@@ -36,10 +38,23 @@
   transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
-.timeline-date {
+.timeline-date-top {
   position: absolute;
   left: -120px;
   top: 8px;
+  width: 100px;
+  text-align: right;
+  font-size: 0.95rem;
+  color: #6b7280;
+  font-weight: 500;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.timeline-date-bottom {
+  position: absolute;
+  left: -120px;
+  top: calc(8px + 1.5em);
   width: 100px;
   text-align: right;
   font-size: 0.95rem;

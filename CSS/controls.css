@@ -1,10 +1,10 @@
-/* Controls */
 .cv-controls {
   display: flex;
   justify-content: flex-end;
   gap: 0.625rem;
   margin-bottom: 1.25rem;
 }
+
 .cv-controls button {
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
@@ -15,6 +15,7 @@
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
 }
+
 .cv-controls button:hover {
   background: #2563EB;
   transform: translateY(-2px);
@@ -30,6 +31,7 @@
   gap: 10px;
   z-index: 1000;
 }
+
 .set-controls button {
   background-color: #ffffffcc;
   border: none;
@@ -40,6 +42,7 @@
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
+
 .set-controls button:hover {
   background-color: #f0f0f0;
   transform: scale(1.05);

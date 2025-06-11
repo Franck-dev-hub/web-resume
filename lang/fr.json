@@ -1,0 +1,198 @@
+{
+	"profile": "Profile",
+    "contact": "Contact",
+    "tech_skills": "Compétences techniques",
+	"soft_skills": "Compétences personnelles",
+    "experience": "Expérience",
+    "education" : "Formation",
+    "certifications": "Certifications",
+    "self_learning": "Auto-formation",
+    "projects": "Projets",
+    "interests": "Centres d'intérêt",
+
+    "job_title": "Développeur Web & Web Mobile",
+    "profile_text": "Développeur web & mobile passionné avec une forte appétence pour la technique et la logique, et un parcours riche en industrie. Solides compétences en développement full-stack, appuyées par une expérience professionnelle dans la mécanique de précision, le management d'équipe, et le pilotage de projets industriels. Adaptabilité, curiosité et rigueur au service de l’innovation.",
+    "download_cv": "Télécharger le CV",
+    "cv_fr": "CV Français",
+    "cv_eu": "CV Européen",
+
+    "prog_lang": "Langages de programmation",
+    "web_dev": "Développement Web",
+    "shells": "Shells",
+    "databases": "Bases de données",
+    "data_form": "Formes de données",
+    "versioning": "Contrôle de version",
+    "ide": "Environnements de développement",
+    "game_engines": "Moteurs de jeu",
+    "data_science": "Science des données",
+    "tools": "Outils",
+
+    "human_skills": "Compétences humaines",
+    "human_skills_1": "Éthique professionnelle",
+    "human_skills_2": "Travail d'équipe",
+    "human_skills_3": "Proactivité",
+    "human_skills_4": "Communication",
+    "human_skills_5": "Créativité / Curiosité",
+
+    "timeline_actual": "Actuel",
+    "jan_2023": "Jan 2023",
+    "job_4_title": "Responsable d'équipe en usinage",
+    "job_3_loc": "LPF - SODAPEM (Auterive 31190)",
+    "job_4_desc_1": "Tourneur - Fraiseur sur CN",
+    "job_4_desc_2": "Management (équipe d'environ 10 personnes)",
+    "job_4_desc_3": "Programmation",
+
+    "dec_2023": "Déc 2023",
+    "dec_2018": "Déc 2018",
+    "job_3_title": "Fraiseur sur CN",
+    "job_3_desc_1_strong": "3 & 5 axes",
+    "job_3_desc_1": " : Industrialisation, optimisation, sécurisation des processus, mise à jour, réglage et lancement de pièces",
+    "job_3_desc_2_strong": "Contrôle et analyse",
+    "job_3_desc_2": " : Manuelle & MMT",
+    "job_3_desc_3": "Tour conventionnel",
+
+    "nov_2018": "Nov 2018",
+    "job_2_title": "Tourneur Fraiseur sur CN",
+    "job_2_loc": "REMAX (Flourens 31130)",
+    "job_2_desc_1_strong": "2, 3 & 5 axes",
+    "job_2_desc_1": " : Réglage et lancement de séries",
+
+    "oct_2017": "Oct 2017",
+    "apr_2012": "Avr 2012",
+    "job_1_title": "Employé commercial",
+    "job_1_loc": "SUPER U (Belberaud 31450)",
+    "job_1_desc_1": "Gestion des commandes, des livraisons et du linéaire",
+    "job_1_desc_2": "Mise en rayon",
+    "job_1_desc_3": "Relation client",
+
+    "mar_2026": "Mars 2026",
+    "june_2025": "Juin 2025",
+    "edu_4_title": "RNCP 5 - Dev Web & mobile",
+    "edu_4_desc_1_strong": "RNCP 5",
+    "edu_4_desc_1": " : Développeur web & web mobile",
+    "edu_4_dec_2_strong": "Établissement",
+    "edu_4_desc_2": " : Holberton (31)",
+
+    "feb_2018": "Fév 2018",
+    "edu_3_title": "RNCP 3 - ORUCN",
+    "edu_3_desc_1_strong": "RNCP 3",
+    "edu_3_desc_1": " : Opérateur régleur sur commande numérique",
+    "edu_3_dec_2_strong": "Option",
+    "edu_3_desc_2": " : Tournage & Fraisage",
+    "edu_3_dec_3_strong": "Établissement",
+    "edu_3_desc_3": " : AFPA Balma (31)",
+
+    "june_2012": "Juin 2012",
+    "sept_2010": "Sept 2010",
+    "edu_2_title": "Bac Pro - CGEA",
+    "edu_2_desc_1_strong": "Bac Pro Agricole",
+    "edu_2_desc_1": " : Conduite et Gestion d'Entreprise Agricole",
+    "edu_2_desc_2_strong": "Option",
+    "edu_2_desc_2": " : Bovin Lait",
+    "edu_2_desc_3_strong": "Établissement",
+    "edu_2_desc_3": " : Lycée agricole de Pamiers (09)",
+
+    "june_2010": "Juin 2010",
+    "sept_2008": "Sept 2008",
+    "edu_1_title": "BEPA - CGEA",
+    "edu_1_desc_1_strong": "BEP Agricole",
+    "edu_1_desc_1": " : Conduite et Gestion d'Entreprise Agricole",
+    "edu_1_desc_2_strong": "Option",
+    "edu_1_desc_2": " : Bovin Viande",
+    "edu_1_desc_3_strong": "Établissement",
+    "edu_1_desc_3": " : Lycée agricole de Pamiers (09)",
+
+    "certif_title_1": "Santé",
+    "certif_title_2": "Sécurité",
+    "certif_title_3": "Electricité",
+    "certif_title_4": "Métiers manuels",
+
+    "certif_1_desc_1": "SST",
+    "certif_1_desc_1_last": "Dernière formation le : 2 Oct 2023",
+
+    "certif_2_desc_1": "Guide file - Serre file",
+    "certif_2_desc_1_last": "Dernière formation le : 22 Mai 2023",
+
+    "certif_3_desc_1": "CACES interne",
+    "certif_3_desc_1_last": "Dernière formation le : 20 Avril 2023",
+
+    "certif_4_desc_1": "BS-BE",
+    "certif_4_desc_1_last": "Dernière formation le : 16 Mars 2023",
+
+    "certif_5_desc_1": "Forge médiévale et coutellerie d'art",
+    "certif_5_desc_2": "Formation professionnelle",
+    "certif_5_desc_3": "Mercus (09) le 05 Juil 2013",
+
+    "certif_6_desc_1": "Lutherie",
+    "certif_6_desc_2": "option guitare et basse électrique",
+    "certif_6_desc_3": "Formation professionnelle",
+    "certif_6_desc_4": "Calmont (31) le 08 Mars 2023",
+
+    "self_learn_title_1": "Openclassrooms",
+    "self_learn_subtitle_1": "Développement",
+    "self_learn_1_1": "Apprenez à programmer en C",
+    "self_learn_1_2": "Mettez en ligne votre site web",
+    "self_learn_1_3": "Créez votre site web avec HTML5 et CSS3",
+    "self_learn_1_4": "Gérez du code avec Git et GitHub",
+    "self_learn_1_5": "Mettez en place votre environnement Python",
+    "self_learn_1_6": "Apprenez à utiliser la ligne de commande dans un terminal",
+    "self_learn_1_7": "Comprendre le Web",
+    "self_learn_1_8": "Découvrez le fonctionnement des algorithmes",
+    "self_learn_1_9": "Démarrez votre projet avec Python",
+
+    "self_learn_subtitle_2": "Systèmes & Réseaux",
+    "self_learn_1_10": "Reprenez le contrôle à l'aide de Linux !",
+
+    "self_learn_subtitle_3": "Marketing & Communication", 
+    "self_learn_1_11": "Analysez des données marketing",
+    "self_learn_1_12": "Mettez en place un système de veille informationnelle",
+
+    "self_learn_subtitle_4": "Data",
+    "self_learn_1_13": "Objectif IA : initiez-vous à l'intelligence artificielle",
+    "self_learn_1_14": "Découvrez les librairies Python pour la Data Science",
+    "self_learn_1_15": "Initiez-vous à Python pour l'analyse de données",
+
+    "self_learn_subtitle_5": "Bureautique",
+    "self_learn_1_16": "Maîtrisez les fondamentaux d'Excel",
+
+    "self_learn_subtitle_6": "Soft Skills",
+    "self_learn_1_17": "Prenez la parole en public",
+    "self_learn_1_18": "Gérez votre temps efficacement",
+    "self_learn_1_19": "Apprenez à apprendre",
+    "self_learn_1_20": "Développez vos soft skills",
+
+    "self_learn_title_2": "Udemy",
+    "self_learn_2_1": "Python : La Formation Complète par Thibault Houdon",
+
+    "self_learn_title_3": "SoloLearn",
+    "self_learn_3_1": "Python pour les débutants",
+    "self_learn_3_2": "Python, structures de données",
+    "self_learn_3_3": "Python pour la science des données",
+
+    "self_learn_title_4": "Mimo",
+    "self_learn_4_1": "Développeur full-stack (41%)",
+
+    "perso_projects": "Projets personnels",
+    "oss_projects": "Projets open source",
+
+    "interests_title_1": "Sciences",
+    "interests_desc_1": "Passionné par la science et la technologie, je garde toujours un œil sur les innovations de demain (IA, robotique, énergie)",
+
+    "interests_title_2": "Programmation",
+    "interests_desc_2": "J’aime autant programmer des interfaces web que des parcours d'outils sur CN : deux mondes, une même logique.",
+
+    "interests_title_3": "Création",
+    "interests_desc_3": "Création d’objets uniques en usinage ou impression 3D — parce que le code ne suffit pas, il faut parfois faire sortir les idées de l’écran.",
+
+    "interests_title_4": "Jeux vidéo",
+    "interests_desc_4": "Amateur de mécaniques de jeu bien pensées, j’analyse autant que je joue (projets de petits jeux 2D/3D sur Godot et Unity).",
+
+    "interests_title_5": "Lectures",
+    "interests_desc_5": "De Nietzsche à Berserk en passant par Sapkowski — une ouverture d’esprit utile pour la créativité.",
+
+    "interests_title_6": "Musique",
+    "interests_desc_6": "Multi-instrumentiste, pour conjuguer précision technique et sensibilité artistique.",
+
+    "interests_title_7": "Sport",
+    "interests_desc_7": "Discipline, concentration et résilience : autant de valeurs que je retrouve dans la pratique des arts martiaux et que j’applique aussi au développement."
+}

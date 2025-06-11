@@ -1,0 +1,198 @@
+{
+    "profile": "Profile",
+    "contact": "Contact",
+    "tech_skills": "Technical Skills",
+    "soft_skills": "Soft Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "self_learning": "Self-Learning",
+    "projects": "Projects",
+    "interests": "Interests",
+
+    "job_title": "Web & Mobile Web Developer",
+    "profile_text": "Passionate web & mobile developer with a strong inclination for technical challenges and logic, backed by a rich industrial background. Solid full-stack development skills, supported by professional experience in precision mechanics, team management, and industrial project leadership. Adaptability, curiosity, and rigor at the service of innovation.",
+    "download_cv": "Download CV",
+    "cv_fr": "French resume",
+    "cv_eu": "European resume",
+
+    "prog_lang": "Programming Languages",
+    "web_dev": "Web Development",
+    "shells": "Shells",
+    "databases": "Databases",
+    "data_form": "Data Structures",
+    "versioning": "Version Control",
+    "ide": "Development Environments",
+    "game_engines": "Game Engines",
+    "data_science": "Data Science",
+    "tools": "Tools",
+
+    "human_skills": "Human Skills",
+    "human_skills_1": "Work Ethic",
+    "human_skills_2": "Teamwork",
+    "human_skills_3": "Proactivity",
+    "human_skills_4": "Communication",
+    "human_skills_5": "Creativity / Curiosity",
+
+    "timeline_actual": "Present",
+    "jan_2023": "Jan 2023",
+    "job_4_title": "Machining Team Leader",
+    "job_3_loc": "LPF - SODAPEM (Auterive 31190)",
+    "job_4_desc_1": "CNC Lathe & Milling Operator",
+    "job_4_desc_2": "Team management (around 10 people)",
+    "job_4_desc_3": "Programming",
+
+    "dec_2023": "Dec 2023",
+    "dec_2018": "Dec 2018",
+    "job_3_title": "CNC Milling Operator",
+    "job_3_desc_1_strong": "3 & 5 axes",
+    "job_3_desc_1": ": Industrialization, optimization, process security, updates, setup, and part launch",
+    "job_3_desc_2_strong": "Inspection and Analysis",
+    "job_3_desc_2": ": Manual & CMM",
+    "job_3_desc_3": "Conventional Lathe",
+
+    "nov_2018": "Nov 2018",
+    "job_2_title": "CNC Lathe & Milling Operator",
+    "job_2_loc": "REMAX (Flourens 31130)",
+    "job_2_desc_1_strong": "2, 3 & 5 axes",
+    "job_2_desc_1": ": Setup and production launch",
+
+    "oct_2017": "Oct 2017",
+    "apr_2012": "Apr 2012",
+    "job_1_title": "Retail Employee",
+    "job_1_loc": "SUPER U (Belberaud 31450)",
+    "job_1_desc_1": "Order, delivery, and shelf management",
+    "job_1_desc_2": "Restocking",
+    "job_1_desc_3": "Customer service",
+
+    "mar_2026": "Mar 2026",
+    "june_2025": "Jun 2025",
+    "edu_4_title": "RNCP 5 - Dev Web & mobile",
+    "edu_4_desc_1_strong": "RNCP 5",
+    "edu_4_desc_1": ": Web & mobile web developer",
+    "edu_4_dec_2_strong": "Institution",
+    "edu_4_desc_2": ": Holberton (31)",
+
+    "feb_2018": "Feb 2018",
+    "edu_3_title": "RNCP 3 - ORUCN",
+    "edu_3_desc_1_strong": "RNCP 3",
+    "edu_3_desc_1": ": Opérateur régleur sur commande numérique",
+    "edu_3_dec_2_strong": "Option",
+    "edu_3_desc_2": ": Turning & Milling",
+    "edu_3_dec_3_strong": "Institution",
+    "edu_3_desc_3": ": AFPA Balma (31)",
+
+    "june_2012": "Jun 2012",
+    "sept_2010": "Sep 2010",
+    "edu_2_title": "Bac Pro - CGEA",
+    "edu_2_desc_1_strong": "Bac Pro Agricole",
+    "edu_2_desc_1": ": Conduite et Gestion d'Entreprise Agricole",
+    "edu_2_desc_2_strong": "Option",
+    "edu_2_desc_2": ": Dairy cattle",
+    "edu_2_desc_3_strong": "Institution",
+    "edu_2_desc_3": ": Agricultural college of Pamiers (09)",
+
+    "june_2010": "Jun 2010",
+    "sept_2008": "Sep 2008",
+    "edu_1_title": "BEPA - CGEA",
+    "edu_1_desc_1_strong": "BEP Agricole",
+    "edu_1_desc_1": ": Conduite et Gestion d'Entreprise Agricole",
+    "edu_1_desc_2_strong": "Option",
+    "edu_1_desc_2": ": Beef Cattle",
+    "edu_1_desc_3_strong": "Institution",
+    "edu_1_desc_3": ": Agricultural college of Pamiers (09)",
+
+    "certif_title_1": "Health",
+    "certif_title_2": "Safety",
+    "certif_title_3": "Electricity",
+    "certif_title_4": "Manual Trades",
+
+    "certif_1_desc_1": "SST",
+    "certif_1_desc_1_last": "Last training: Oct 2, 2023",
+
+    "certif_2_desc_1": "Evacuation Leader - Tail-End Leader",
+    "certif_2_desc_1_last": "Last training: May 22, 2023",
+
+    "certif_3_desc_1": "Internal CACES",
+    "certif_3_desc_1_last": "Last training: Apr 20, 2023",
+
+    "certif_4_desc_1": "BS-BE",
+    "certif_4_desc_1_last": "Last training: Mar 16, 2023",
+
+    "certif_5_desc_1": "Medieval forging and artistic knifemaking",
+    "certif_5_desc_2": "Professional training",
+    "certif_5_desc_3": "Mercus (09) on Jul 5, 2013",
+
+    "certif_6_desc_1": "Lutherie",
+    "certif_6_desc_2": "guitar and electric bass option",
+    "certif_6_desc_3": "Professional training",
+    "certif_6_desc_4": "Calmont (31) on Mar 8, 2023",
+
+    "self_learn_title_1": "Openclassrooms",
+    "self_learn_subtitle_1": "Development",
+    "self_learn_1_1": "Learn to program in C",
+    "self_learn_1_2": "Put your website online",
+    "self_learn_1_3": "Create your website with HTML5 and CSS3",
+    "self_learn_1_4": "Manage code with Git and GitHub",
+    "self_learn_1_5": "Set up your Python environment",
+    "self_learn_1_6": "Learn to use the command line in a terminal",
+    "self_learn_1_7": "Understand the Web",
+    "self_learn_1_8": "Discover how algorithms work",
+    "self_learn_1_9": "Start your project with Python",
+
+    "self_learn_subtitle_2": "Systems & Networks",
+    "self_learn_1_10": "Take control with Linux!",
+
+    "self_learn_subtitle_3": "Marketing & Communication",
+    "self_learn_1_11": "Analyze marketing data",
+    "self_learn_1_12": "Set up an information monitoring system",
+
+    "self_learn_subtitle_4": "Data",
+    "self_learn_1_13": "AI Objective: Get started with Artificial Intelligence",
+    "self_learn_1_14": "Discover Python libraries for Data Science",
+    "self_learn_1_15": "Get started with Python for data analysis",
+
+    "self_learn_subtitle_5": "Office Tools",
+    "self_learn_1_16": "Master Excel fundamentals",
+
+    "self_learn_subtitle_6": "Soft Skills",
+    "self_learn_1_17": "Speak in public",
+    "self_learn_1_18": "Manage your time effectively",
+    "self_learn_1_19": "Learn how to learn",
+    "self_learn_1_20": "Develop your soft skills",
+
+    "self_learn_title_2": "Udemy",
+    "self_learn_2_1": "Python: The Complete Course by Thibault Houdon",
+
+    "self_learn_title_3": "SoloLearn",
+    "self_learn_3_1": "Python for Beginners",
+    "self_learn_3_2": "Python Data Structures",
+    "self_learn_3_3": "Python for Data Science",
+
+    "self_learn_title_4": "Mimo",
+    "self_learn_4_1": "Full-Stack Developer (41%)",
+
+    "perso_projects": "Personal Projects",
+    "oss_projects": "Open Source Projects",
+
+    "interests_title_1": "Science",
+    "interests_desc_1": "Passionate about science and technology, I always keep an eye on tomorrow’s innovations (AI, robotics, energy)",
+
+    "interests_title_2": "Professional",
+    "interests_desc_2": "I enjoy both coding web interfaces and designing tool paths on CNC machines: two worlds, one logic.",
+
+    "interests_title_3": "Creation",
+    "interests_desc_3": "Creating unique objects through machining or 3D printing — because code alone is not enough, ideas sometimes need to come off the screen.",
+
+    "interests_title_4": "Video Games",
+    "interests_desc_4": "Fan of well-crafted game mechanics, I analyze as much as I play (2D/3D mini-game projects on Godot and Unity).",
+
+    "interests_title_5": "Reading",
+    "interests_desc_5": "From Nietzsche to Berserk to Sapkowski — a wide range of influences fuels my creativity.",
+
+    "interests_title_6": "Music",
+    "interests_desc_6": "Multi-instrumentalist, combining technical precision with artistic sensitivity.",
+
+    "interests_title_7": "Sport",
+    "interests_desc_7": "Discipline, focus, and resilience: values I embrace through martial arts and apply in development as well."
+}

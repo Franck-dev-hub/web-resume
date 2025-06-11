@@ -1,9 +1,9 @@
-/* Links & Underline */
 a {
   color: #3B82F6;
   text-decoration: none;
   transition: color 0.2s ease;
 }
+
 a:hover { font-weight: 600; }
 
 .underline {
@@ -11,6 +11,7 @@ a:hover { font-weight: 600; }
   position: relative;
   transition: color 0.2s ease;
 }
+
 .underline::after {
   content: '';
   position: absolute;
@@ -23,6 +24,7 @@ a:hover { font-weight: 600; }
   transform-origin: right;
   transition: transform 0.3s ease;
 }
+
 .underline:hover { color: #2563eb; }
 .underline:hover::after {
   transform: scaleX(1);
