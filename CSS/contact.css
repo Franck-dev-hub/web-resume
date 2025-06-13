@@ -24,4 +24,7 @@
 
 .qrcode img { display: block; }
 
-.qrcode:hover { transform: scale(1.3); }
+.qrcode:hover {
+  transform: scale(1.3);
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
+}
