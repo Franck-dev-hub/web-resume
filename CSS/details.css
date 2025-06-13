@@ -3,7 +3,7 @@ details {
   background: #f3f4f6;
   border-radius: 6px;
   padding: 0.8rem 1rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 details summary {
@@ -15,7 +15,7 @@ details summary {
 
 details[open] {
   background: #dbeafe;
-  box-shadow: 0 0 8px rgba(59,130,246,0.5);
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
 }
 
 details ul {

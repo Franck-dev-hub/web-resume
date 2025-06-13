@@ -4,7 +4,9 @@ a {
   transition: color 0.2s ease;
 }
 
-a:hover { font-weight: 600; }
+a:hover {
+  font-weight: 600;
+}
 
 .underline {
   text-decoration: none;
@@ -25,7 +27,10 @@ a:hover { font-weight: 600; }
   transition: transform 0.3s ease;
 }
 
-.underline:hover { color: #2563eb; }
+.underline:hover {
+  color: #2563eb;
+}
+
 .underline:hover::after {
   transform: scaleX(1);
   transform-origin: left;
