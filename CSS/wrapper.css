@@ -1,0 +1,93 @@
+.wrapper {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    scroll-snap-align: center;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.wrapper-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 12px 0 24px 0;
+}
+
+.wrapper-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #bbb;
+    display: inline-block;
+    transition: background 0.2s;
+    border: 2px solid transparent;
+}
+
+.wrapper-dot:focus,
+.wrapper-dot:hover {
+    background: #4fc3f7;
+    outline: none;
+    border-color: #4fc3f7;
+}
+
+.wrapper-dots a[href="#card-1"],
+.wrapper-dots a[href="#card-2"],
+.wrapper-dots a[href="#card-3"],
+.wrapper-dots a[href="#card-4"],
+.wrapper-dots a[href="#card-5"],
+.wrapper-dots a[href="#card-6"],
+.wrapper-dots a[href="#card-7"],
+.wrapper-dots a[href="#card-8"],
+.wrapper-dots a[href="#card-9"] {
+    background: #999;
+}
+
+.wrapper:has(#card-1:target)~.wrapper-dots a[href="#card-1"],
+.wrapper:has(#card-2:target)~.wrapper-dots a[href="#card-2"],
+.wrapper:has(#card-3:target)~.wrapper-dots a[href="#card-3"],
+.wrapper:has(#card-4:target)~.wrapper-dots a[href="#card-4"],
+.wrapper:has(#card-5:target)~.wrapper-dots a[href="#card-5"],
+.wrapper:has(#card-6:target)~.wrapper-dots a[href="#card-6"],
+.wrapper:has(#card-7:target)~.wrapper-dots a[href="#card-7"],
+.wrapper:has(#card-8:target)~.wrapper-dots a[href="#card-8"],
+.wrapper:has(#card-9:target)~.wrapper-dots a[href="#card-9"] {
+    background: #4fc3f7;
+}
+
+.wrapper-dot {
+    position: relative;
+}
+
+.wrapper-dot::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 150%;
+    transform: translateX(-50%);
+    background: #222;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    font-size: 0.9em;
+    z-index: 10;
+}
+
+.wrapper-dot:hover::after,
+.wrapper-dot:focus::after {
+    opacity: 1;
+}

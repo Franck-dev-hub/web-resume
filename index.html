@@ -6,7 +6,6 @@
   <title>Franck S | Dev Web & Mobile</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/base.css">
-  <link rel="stylesheet" href="CSS/carousel.css">
   <link rel="stylesheet" href="CSS/contact.css">
   <link rel="stylesheet" href="CSS/controls.css">
   <link rel="stylesheet" href="CSS/dark_mode.css">
@@ -20,6 +19,7 @@
   <link rel="stylesheet" href="CSS/responsive.css">
   <link rel="stylesheet" href="CSS/sidebar.css">
   <link rel="stylesheet" href="CSS/timeline.css">
+  <link rel="stylesheet" href="CSS/wrapper.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -172,139 +172,124 @@
       </section>
 
       <!-- TECHNICAL SKILLS -->
-      <div class="carousel" id="competences-techniques">
-        <input type="radio" name="slider" id="s1" checked>
-        <input type="radio" name="slider" id="s2">
-        <input type="radio" name="slider" id="s3">
-        <input type="radio" name="slider" id="s4">
-        <input type="radio" name="slider" id="s5">
-        <input type="radio" name="slider" id="s6">
-        <input type="radio" name="slider" id="s7">
-        <input type="radio" name="slider" id="s8">
-        <input type="radio" name="slider" id="s9">
-
-        <div class="slides">
-          <div class="slide">
-            <h2><span translate="prog_lang"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white" alt="C">
-              <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" alt="C++">
-              <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust"><br>
-              <img src="https://custom-icon-badges.demolab.com/badge/C%23-239120?logo=csharp&logoColor=white" alt="C#">
-              <img src="https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white" alt="Lua"><br>
-              <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
-              <img src="https://img.shields.io/badge/GDScript-478CBF?logo=godotengine&logoColor=white" alt="GDScript">
-              <img src="https://img.shields.io/badge/VBA-2C7ACD?logo=microsoft-excel&logoColor=white" alt="VBA">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="shells"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/Shell-89E051?logo=powershell&logoColor=white" alt="Shell">
-              <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white" alt="Bash">
-              <img src="https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff" alt="Zsh">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="databases"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL">
-              <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white" alt="SQLite">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="data_form"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="JSON">
-              <img src="https://img.shields.io/badge/XML-767C52?logo=xml&logoColor=fff" alt="XML"><br>
-              <img src="https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff" alt="YAML">
-              <img src="https://custom-icon-badges.demolab.com/badge/TOML-9C4221?logo=toml&logoColor=fff"
-                alt="TOML"><br>
-              <img src="https://img.shields.io/badge/CSV-003B57?logo=csv&logoColor=fff" alt="CSV">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="versioning"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git">
-              <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"><br>
-              <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="ide"></span></h2>
-            <p>
-              <img src="https://custom-icon-badges.demolab.com/badge/JetBrains-000000?logo=jetbrains&logoColor=white"
-                alt="JetBrains">
-              <img src="https://img.shields.io/badge/Sublime%20Text-%23575757.svg?logo=sublime-text&logoColor=important"
-                alt="Sublime Text">
-              <img
-                src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white"
-                alt="Visual Studio Code">
-              <img
-                src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white"
-                alt="Visual Studio">
-              <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black"
-                alt="Notepad++"><br>
-              <img src="https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white" alt="Vim">
-              <img src="https://img.shields.io/badge/Nano-4EAA25?logo=nano&logoColor=white" alt="Nano">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="game_engines"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/Godot-%23FFFFFF.svg?logo=godot-engine" alt="Godot Engine">
-              <img src="https://img.shields.io/badge/Unity-000000?logo=unity&logoColor=white" alt="Unity">
-              <img src="https://img.shields.io/badge/Unreal%20Engine-%23313131.svg?logo=unrealengine&logoColor=white"
-                alt="Unreal Engine">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="data_science"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff" alt="NumPy">
-              <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff" alt="Pandas">
-              <img src="https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white"
-                alt="Scikit-learn">
-              <img src="https://img.shields.io/badge/TensorFlow-ff8f00?logo=tensorflow&logoColor=white"
-                alt="TensorFlow">
-              <img src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch">
-              <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff"
-                alt="Matplotlib"><br>
-              <img src="https://img.shields.io/badge/Tkinter-FFB13B?logo=python&logoColor=white" alt="Tkinter">
-            </p>
-          </div>
-
-          <div class="slide">
-            <h2><span translate="tools"></span></h2>
-            <p>
-              <img src="https://img.shields.io/badge/Obsidian-%23483699.svg?&logo=obsidian&logoColor=white"
-                alt="Obsidian">
-              <img src="https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white" alt="Discord">
-              <img src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=fff" alt="Slack">
-              <img src="https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=white" alt="Zoom">
-            </p>
-          </div>
+      <div class="wrapper">
+        <div class="card" id="card-1">
+          <h2><span translate="prog_lang"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white" alt="C">
+            <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" alt="C++">
+            <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust"><br>
+            <img src="https://custom-icon-badges.demolab.com/badge/C%23-239120?logo=csharp&logoColor=white" alt="C#">
+            <img src="https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white" alt="Lua"><br>
+            <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+            <img src="https://img.shields.io/badge/GDScript-478CBF?logo=godotengine&logoColor=white" alt="GDScript">
+            <img src="https://img.shields.io/badge/VBA-2C7ACD?logo=microsoft-excel&logoColor=white" alt="VBA">
+          </p>
         </div>
 
-        <div class="navigation">
-          <label for="s1"></label>
-          <label for="s2"></label>
-          <label for="s3"></label>
-          <label for="s4"></label>
-          <label for="s5"></label>
-          <label for="s6"></label>
-          <label for="s7"></label>
-          <label for="s8"></label>
-          <label for="s9"></label>
+        <div class="card" id="card-2">
+          <h2><span translate="shells"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/Shell-89E051?logo=powershell&logoColor=white" alt="Shell">
+            <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white" alt="Bash">
+            <img src="https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff" alt="Zsh">
+          </p>
         </div>
+
+        <div class="card" id="card-3">
+          <h2><span translate="databases"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL">
+            <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white" alt="SQLite">
+          </p>
+        </div>
+
+        <div class="card" id="card-4">
+          <h2><span translate="data_form"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="JSON">
+            <img src="https://img.shields.io/badge/XML-767C52?logo=xml&logoColor=fff" alt="XML"><br>
+            <img src="https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff" alt="YAML">
+            <img src="https://custom-icon-badges.demolab.com/badge/TOML-9C4221?logo=toml&logoColor=fff" alt="TOML"><br>
+            <img src="https://img.shields.io/badge/CSV-003B57?logo=csv&logoColor=fff" alt="CSV">
+          </p>
+        </div>
+
+        <div class="card" id="card-5">
+          <h2><span translate="versioning"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git">
+            <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"><br>
+            <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
+          </p>
+        </div>
+
+        <div class="card" id="card-6">
+          <h2><span translate="ide"></span></h2>
+          <p>
+            <img src="https://custom-icon-badges.demolab.com/badge/JetBrains-000000?logo=jetbrains&logoColor=white"
+              alt="JetBrains">
+            <img src="https://img.shields.io/badge/Sublime%20Text-%23575757.svg?logo=sublime-text&logoColor=important"
+              alt="Sublime Text">
+            <img
+              src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white"
+              alt="Visual Studio Code">
+            <img
+              src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white"
+              alt="Visual Studio">
+            <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black"
+              alt="Notepad++"><br>
+            <img src="https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white" alt="Vim">
+            <img src="https://img.shields.io/badge/Nano-4EAA25?logo=nano&logoColor=white" alt="Nano">
+          </p>
+        </div>
+
+        <div class="card" id="card-7">
+          <h2><span translate="game_engines"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/Godot-%23FFFFFF.svg?logo=godot-engine" alt="Godot Engine">
+            <img src="https://img.shields.io/badge/Unity-000000?logo=unity&logoColor=white" alt="Unity">
+            <img src="https://img.shields.io/badge/Unreal%20Engine-%23313131.svg?logo=unrealengine&logoColor=white"
+              alt="Unreal Engine">
+          </p>
+        </div>
+
+        <div class="card" id="card-8">
+          <h2><span translate="data_science"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff" alt="NumPy">
+            <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff" alt="Pandas">
+            <img src="https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white"
+              alt="Scikit-learn">
+            <img src="https://img.shields.io/badge/TensorFlow-ff8f00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+            <img src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch">
+            <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff"
+              alt="Matplotlib"><br>
+            <img src="https://img.shields.io/badge/Tkinter-FFB13B?logo=python&logoColor=white" alt="Tkinter">
+          </p>
+        </div>
+
+        <div class="card" id="card-9">
+          <h2><span translate="tools"></span></h2>
+          <p>
+            <img src="https://img.shields.io/badge/Obsidian-%23483699.svg?&logo=obsidian&logoColor=white"
+              alt="Obsidian">
+            <img src="https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white" alt="Discord">
+            <img src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=fff" alt="Slack">
+            <img src="https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=white" alt="Zoom">
+          </p>
+        </div>
+      </div>
+      <div class="wrapper-dots">
+        <a href="#card-1" class="wrapper-dot" id="dot-1" data-tooltip="Langages"></a>
+        <a href="#card-2" class="wrapper-dot" id="dot-2" data-tooltip="Shells"></a>
+        <a href="#card-3" class="wrapper-dot" id="dot-3" data-tooltip="Databases"></a>
+        <a href="#card-4" class="wrapper-dot" id="dot-4" data-tooltip="Data Structures"></a>
+        <a href="#card-5" class="wrapper-dot" id="dot-5" data-tooltip="Versioning"></a>
+        <a href="#card-6" class="wrapper-dot" id="dot-6" data-tooltip="Environments"></a>
+        <a href="#card-7" class="wrapper-dot" id="dot-7" data-tooltip="Game Engines"></a>
+        <a href="#card-8" class="wrapper-dot" id="dot-8" data-tooltip="Data Science"></a>
+        <a href="#card-9" class="wrapper-dot" id="dot-9" data-tooltip="Tools"></a>
       </div>
 
       <!-- PERSONAL SKILLS -->
