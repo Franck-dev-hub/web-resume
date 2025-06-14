@@ -7,12 +7,13 @@
 }
 
 .card {
+    margin: 0 auto;
     scroll-snap-align: center;
     box-sizing: border-box;
-    padding: 20px 30px;
+    padding: 2em;
     flex-shrink: 0;
     width: 100%;
-    background-color: white;
+    background-color: #e4e4e4;
     border-radius: 14px;
     text-align: center;
 }
@@ -84,7 +85,7 @@
     pointer-events: none;
     transition: opacity 0.2s;
     font-size: 0.9em;
-    z-index: 10;
+    z-index: 1;
 }
 
 .wrapper-dot:hover::after,
