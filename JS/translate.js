@@ -1,4 +1,4 @@
-const switcher = document.getElementById('language-switcher');
+const switcher = document.getElementById('language_switcher');
 
 switcher.addEventListener('change', (e) => {
     loadLanguage(e.target.value);

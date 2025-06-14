@@ -22,7 +22,7 @@
   box-shadow: 0 4px 6px rgba(37, 99, 235, 0.5);
 }
 
-.set-controls {
+.set_controls {
   position: fixed;
   top: 20px;
   right: 20px;
@@ -32,7 +32,7 @@
   z-index: 1;
 }
 
-.set-controls button {
+.set_controls button {
   background-color: #ffffffcc;
   border: none;
   border-radius: 8px;
@@ -43,7 +43,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.set-controls button:hover {
+.set_controls button:hover {
   background-color: #f0f0f0;
   transform: scale(1.05);
 }

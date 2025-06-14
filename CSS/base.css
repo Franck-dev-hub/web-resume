@@ -14,4 +14,21 @@ body {
   line-height: 1.6;
   color: #222;
   background: #f9f9f9;
+  padding-top: 2%;
+}
+
+.main-content {
+  width: 100%;
+  justify-content: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+}
+
+.cv-content {
+  margin-left: 20%;
+  margin-right: 2%;
+  display: flex;
 }

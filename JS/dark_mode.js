@@ -1,5 +1,5 @@
 function toggleThemeInit() {
-  const toggleBtn = document.getElementById('toggle-theme');
+  const toggleBtn = document.getElementById('toggle_theme');
   if (!toggleBtn) return;
 
   toggleBtn.addEventListener('click', () => {
