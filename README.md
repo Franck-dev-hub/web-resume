@@ -34,27 +34,34 @@ No dependencies or installation required.
 ```
 .
 ├── assets
-│   ├── cv.pdf
+│   ├── cv_eu.pdf
+│   ├── cv_fr.pdf
 │   ├── github.png
-│   └── linkedin.png
+│   ├── linkedin.png
+│   └── twemoji
 ├── CSS
 │   ├── base.css
 │   ├── contact.css
 │   ├── controls.css
 │   ├── dark_mode.css
 │   ├── details.css
+│   ├── dropdown.css
+│   ├── head_animation.css
 │   ├── headings.css
-│   ├── layout.css
+│   ├── images.css
 │   ├── links.css
 │   ├── lists.css
-│   ├── responsive.css
-│   ├── sidebar.css
-│   └── timeline.css
-├── HTML
-│   └── index-en.html
+│   ├── navbar.css
+│   ├── timeline.css
+│   └── wrapper.css
 ├── index.html
 ├── JS
-│   └── dark_mode.js
+│   ├── dark_mode.js
+│   ├── navbar_responsive.js
+│   └── translate.js
+├── lang
+│   ├── en.json
+│   └── fr.json
 ├── LICENSE
 └── README.md
 ```
@@ -68,6 +75,10 @@ If you encounter issues, ensure:
 - [Franck-dev-hub](https://github.com/Franck-dev-hub) – Franck S.
 
 ## 📝 Version History
+- **v1.2** :
+    - Add language files (`fr.json` and `en.json`)
+    - Upgrade accesibility and responsive
+    - Fix minor bugs
 - **v1.1**:
     - Fix bad links / badges
 - **v1.0**:
