@@ -1,0 +1,84 @@
+/* Import Lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;900&display=swap');
+
+/* CSS Variables for theming */
+:root {
+    /* Color variables */
+    --primary-color: #3b82f6;
+    --secondary-color: #8b5cf6;
+    --accent-color: #06b6d4;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --error-color: #ef4444;
+
+    /* Typography scale - Modern and readable */
+    --font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-size-xs: 0.75rem;
+    /* 12px */
+    --font-size-sm: 0.875rem;
+    /* 14px */
+    --font-size-base: 1rem;
+    /* 16px */
+    --font-size-lg: 1.125rem;
+    /* 18px */
+    --font-size-xl: 1.25rem;
+    /* 20px */
+    --font-size-2xl: 1.5rem;
+    /* 24px */
+    --font-size-3xl: 1.875rem;
+    /* 30px */
+    --font-size-4xl: 2.25rem;
+    /* 36px */
+    --font-size-5xl: 3rem;
+    /* 48px */
+    --font-size-6xl: 3.75rem;
+    /* 60px */
+
+    /* Line heights for better readability */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+
+    /* Font weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+
+    /* Theme colors */
+    --background-color: #ffffff;
+    --surface-color: #f1f5f9;
+    --card-color: #ffffff;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    --gradient-secondary: linear-gradient(135deg, #84b1ff 0%, #b1fbff 100%);
+    --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+    --primary-color: #3b82f6;
+    --secondary-color: #60a5fa;
+    --accent-color: #60a5fa;
+    --background-color: #0f172a;
+    --surface-color: #1e293b;
+    --card-color: #334155;
+    --text-primary: #f1f5f9;
+    --text-secondary: #e2e8f0;
+    --text-muted: #94a3b8;
+    --border-color: #475569;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+    --gradient-secondary: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --error-color: #ef4444;
+}

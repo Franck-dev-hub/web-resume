@@ -1,0 +1,37 @@
+/* Main CV CSS file - imports all component styles */
+
+/* Import variables and themes */
+@import './CV-variables.css';
+
+/* Import base styles */
+@import './CV-base.css';
+
+/* Import header styles */
+@import './CV-header.css';
+
+/* Import sidebar styles */
+@import './CV-sidebar.css';
+
+/* Import hero section styles */
+@import './CV-hero.css';
+
+/* Import skills styles */
+@import './CV-skills.css';
+
+/* Import timeline styles */
+@import './CV-timeline.css';
+
+/* Import certifications styles */
+@import './CV-certifications.css';
+
+/* Import projects styles */
+@import './CV-projects.css';
+
+/* Import interests styles */
+@import './CV-interests.css';
+
+/* Import animations */
+@import './CV-animations.css';
+
+/* Import responsive styles */
+@import './CV-responsive.css';
