@@ -91,17 +91,18 @@ export const cvDataEn = {
             category: "Safety",
             items: [
                 { name: "Evacuation Leader - Tail-End Leader", date: "Last training: May 22, 2023" },
-                { name: "BS-BE", date: "Last training: Mar 16, 2023" }
+                { name: "Internal CACES", date: "Last training: Apr 20, 2023" }
+
             ]
         },
         {
             category: "Electricity",
             items: [
-                { name: "Internal CACES", date: "Last training: Apr 20, 2023" }
+                { name: "BS-BE", date: "Last training: Mar 16, 2023" }
             ]
         },
         {
-            category: "Manual Trades",
+            category: "Manual jobs",
             items: [
                 { name: "Medieval blacksmithing and cutlery", date: "Professional training, Mercus (09) on Jul 5, 2013" },
                 { name: "Lutherie", date: "guitar and electric bass option, Professional training, Calmont (31) on Mar 8, 2023" }

@@ -91,13 +91,13 @@ export const cvDataFr = {
             category: "Sécurité",
             items: [
                 { name: "Guide file - Serre file", date: "Dernière formation le : 22 Mai 2023" },
-                { name: "BS-BE", date: "Dernière formation le : 16 Mars 2023" }
+                { name: "CACES interne", date: "Dernière formation le : 20 Avril 2023" }
             ]
         },
         {
             category: "Electricité",
             items: [
-                { name: "CACES interne", date: "Dernière formation le : 20 Avril 2023" }
+                { name: "BS-BE", date: "Dernière formation le : 16 Mars 2023" }
             ]
         },
         {

@@ -181,7 +181,7 @@
 }
 
 .timeline-content.open {
-    max-height: 500px;
+    max-height: none;
     padding: 2vh 2vw;
 }
 
