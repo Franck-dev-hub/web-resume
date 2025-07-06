@@ -122,6 +122,7 @@
     gap: 1vw;
     width: 100%;
     text-align: left;
+    z-index: 1;
 }
 
 .sidebar-nav-btn::before {
@@ -151,10 +152,14 @@
     font-size: 1.3em;
     min-width: 1.5rem;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .sidebar-label {
     font-weight: 500;
+    position: relative;
+    z-index: 2;
 }
 
 .scroll-navigation {
