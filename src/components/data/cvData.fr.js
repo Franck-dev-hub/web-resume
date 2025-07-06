@@ -213,7 +213,7 @@ export const cvDataFr = {
         {
             title: "Création",
             icon: "🛠️",
-            description: "Création d'objets uniques en usinage ou impression 3D — parce que le code ne suffit pas, il faut parfois faire sortir les idées de l'écran."
+            description: "Création d'objets uniques en usinage ou impression 3D, parce que le code ne suffit pas, il faut parfois faire sortir les idées de l'écran."
         },
         {
             title: "Jeux vidéo",
@@ -223,7 +223,7 @@ export const cvDataFr = {
         {
             title: "Lectures",
             icon: "📚",
-            description: "De Nietzsche à Berserk en passant par Sapkowski — une ouverture d'esprit utile pour la créativité."
+            description: "De Nietzsche à Berserk en passant par Sapkowski, une ouverture d'esprit utile pour la créativité."
         },
         {
             title: "Musique",

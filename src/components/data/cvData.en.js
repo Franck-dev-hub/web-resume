@@ -214,7 +214,7 @@ export const cvDataEn = {
         {
             title: "Creation",
             icon: "🛠️",
-            description: "Creating unique objects through machining or 3D printing — because code isn't enough, sometimes ideas need to come out of the screen."
+            description: "Creating unique objects through machining or 3D printing, because code isn't enough, sometimes ideas need to come out of the screen."
         },
         {
             title: "Video Games",
@@ -224,7 +224,7 @@ export const cvDataEn = {
         {
             title: "Reading",
             icon: "📚",
-            description: "From Nietzsche to Berserk through Sapkowski — an open mind useful for creativity."
+            description: "From Nietzsche to Berserk through Sapkowski, an open mind useful for creativity."
         },
         {
             title: "Music",
