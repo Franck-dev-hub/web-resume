@@ -63,6 +63,11 @@ const CV = () => {
         document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
     }, [isDarkMode]);
 
+    // Scroll to top on component mount
+    useEffect(() => {
+        scrollToTop();
+    }, []);
+
     // Handle scroll events for navigation buttons
     useEffect(() => {
         const handleScroll = () => {
@@ -130,12 +135,26 @@ const CV = () => {
 
     // Toggle platform sections
     const togglePlatform = (platformName) => {
+        const isOpening = openPlatform !== platformName;
         setOpenPlatform(openPlatform === platformName ? null : platformName);
+
+        if (isOpening && (platformName === 'technical' || platformName === 'soft')) {
+            setTimeout(() => {
+                scrollToTop();
+            }, 100);
+        }
     };
 
     // Toggle certification sections
     const toggleCertification = (certificationName) => {
+        const isOpening = openCertification !== certificationName;
         setOpenCertification(openCertification === certificationName ? null : certificationName);
+
+        if (isOpening && (certificationName === 'technical' || certificationName === 'soft')) {
+            setTimeout(() => {
+                scrollToTop();
+            }, 100);
+        }
     };
 
     // Toggle timeline cards
