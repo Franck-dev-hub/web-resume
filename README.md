@@ -6,9 +6,8 @@ This project is an interactive, responsive, and multilingual CV built with **Rea
 ## 🚀 Quick Start
 
 ### ✅ Prerequisites
-- **Node.js** (v14 or higher)
-- **npm**
-- A modern web browser:
+- [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](#)
+- A web browser
   [![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=Firefox&logoColor=white)](#)
   [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=brave&logoColor=white)](#)
 
