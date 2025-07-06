@@ -1,0 +1,179 @@
+# DEPENDENCIES
+node_modules/
+/.pnp
+.pnp.js
+jspm_packages/
+package-lock.json
+
+# PRODUCTION BUILDS
+/build/
+/dist/
+/.next/
+/.nuxt/
+/.output/
+
+# ENVIRONMENT VARIABLES
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# LOGS
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+*.log
+
+# RUNTIME DATA
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TESTING
+/coverage/
+*.lcov
+.nyc_output
+.jest/
+
+# CACHE
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.eslintcache
+.stylelintcache
+
+# PACKAGE MANAGERS
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# BUNDLERS
+*.tgz
+*.tar.gz
+
+# IDE & EDITORS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OPERATING SYSTEM
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# TEMPORARY FILES
+tmp/
+temp/
+*.tmp
+*.temp
+
+# STORYBOOK
+storybook-static/
+.out/
+.storybook-out/
+
+# MISCELLANEOUS
+*.tgz
+*.tar.gz
+.cache
+.vercel
+.netlify
+
+# PROJECT SPECIFIC
+# Add any project-specific files here
+web-resume/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Netlify folder
+.netlify
+
+# Sentry Config File
+.sentryclirc
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
