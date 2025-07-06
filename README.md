@@ -1,4 +1,4 @@
-# Modern React CV – Franck S.
+# Resume / CV – Franck S.
 
 ## 📌 Description
 This project is an interactive, responsive, and multilingual CV built with **React**. It includes dark mode, PDF download capabilities, QR code generation, and highlights skills, experience, and interests with smooth animations.
