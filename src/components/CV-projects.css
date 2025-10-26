@@ -1,0 +1,51 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2vh 2vw;
+    margin-top: 3vh;
+}
+
+.project-card {
+    background: var(--card-color);
+    padding: 2vh 2vw;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 16px var(--shadow-color);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px var(--shadow-color);
+}
+
+.project-title {
+    font-size: 1.7vw;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.75vw;
+}
+
+.project-description {
+    font-size: 1.4vw;
+    color: var(--text-secondary);
+    margin-bottom: 1vw;
+    line-height: 1.5;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.tech-tag {
+    background: var(--gradient-secondary);
+    color: var(--text-primary);
+    padding: 0.25vw 0.75vw;
+    border-radius: 15px;
+    font-size: 1.3vw;
+    font-weight: 500;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}

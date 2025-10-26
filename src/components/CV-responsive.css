@@ -1,0 +1,351 @@
+/* Responsive design for tablets */
+@media (max-width: 900px) {
+    body {
+        font-size: 0.94rem;
+    }
+
+    .skills-section-title {
+        font-size: 1.1rem;
+        padding: 1rem;
+    }
+
+    .skill-filter-btn {
+        font-size: 0.94rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .skills-category.active {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .soft-skills-category.active {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .skill-name {
+        font-size: 0.8rem;
+    }
+
+    .cv-sidebar {
+        transform: translateX(-100%) translateY(-50%);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: fixed;
+        top: 50%;
+        left: 0;
+        height: 70vh;
+        width: 280px;
+        max-width: 80vw;
+        z-index: 140;
+        background: var(--card-color);
+        border-right: 1px solid var(--border-color);
+        box-shadow: 4px 0 24px var(--shadow-color);
+        overflow-y: auto;
+        padding: 2rem 1rem;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .cv-sidebar.open {
+        transform: translateX(0) translateY(-50%);
+    }
+
+    .cv-main {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .sidebar-close {
+        display: block;
+    }
+
+    .sidebar-nav {
+        margin-top: 2rem;
+    }
+
+    .sidebar-nav li {
+        margin-bottom: 1rem;
+    }
+
+    .sidebar-nav li:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .sidebar-nav li:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .sidebar-nav li:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .sidebar-nav li:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .sidebar-nav li:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .sidebar-nav li:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+
+    .sidebar-nav li:nth-child(7) {
+        animation-delay: 0.7s;
+    }
+
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .sidebar-nav-btn {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .sidebar-nav-btn:hover {
+        background: var(--gradient-primary);
+        color: white;
+    }
+
+    .sidebar-nav-btn:active {
+        transform: scale(0.98);
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero-title {
+        font-size: 3vw;
+    }
+
+    .hero-summary {
+        font-size: 1.6vw;
+    }
+
+    .contact-item {
+        font-size: 1.4vw;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .skill-card-title {
+        font-size: 2vw;
+    }
+
+    .carousel-btn {
+        font-size: 1.5rem;
+    }
+
+    .skill-dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    .timeline-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .timeline-column-title {
+        font-size: 1.25rem;
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projects-grid,
+    .interests-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+
+    .project-title,
+    .interest-title {
+        font-size: 1.25rem;
+    }
+
+    .project-description,
+    .interest-description {
+        font-size: 1rem;
+    }
+
+    .tech-tag {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-filters {
+        gap: 0.5rem;
+    }
+
+    .skill-filter-btn {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .skills-category.active {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 1rem;
+    }
+
+    .soft-skills-category.active {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1rem;
+    }
+
+    .skill-item {
+        padding: 1rem 0.5rem;
+    }
+
+    .cv-sidebar {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .hero-title {
+        font-size: 2.5vw;
+    }
+
+    .hero-summary {
+        font-size: 1.4vw;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .skill-card-title {
+        font-size: 1.7vw;
+    }
+
+    .profile-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .projects-grid,
+    .interests-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .project-title,
+    .interest-title {
+        font-size: 1.125rem;
+    }
+
+    .project-description,
+    .interest-description {
+        font-size: 0.875rem;
+    }
+
+    .tech-tag {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.75rem;
+    }
+
+    .interest-icon {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .cv-name {
+        font-size: 1.5rem;
+    }
+
+    .cv-hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .timeline-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .skills-grid,
+    .soft-skills-grid,
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-section {
+        padding: 2rem 0;
+    }
+
+    .header-qr-codes {
+        display: none;
+    }
+
+    .profile-image-container {
+        padding: 15px;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .cv-section {
+        padding: 1rem 0;
+    }
+
+    .hero-title {
+        font-size: 2.3vw;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .profile-image-container {
+        padding: 10px;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+}

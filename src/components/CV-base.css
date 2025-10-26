@@ -1,0 +1,91 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove focus outlines for better UX */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Disable text selection for better mobile experience */
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Base body styles */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-primary);
+    line-height: var(--line-height-normal);
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Main container */
+.cv-container {
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* Main content area */
+.cv-main {
+    padding: 2vh 0;
+    margin-left: 20vw;
+    transition: margin-left 0.3s ease;
+    font-size: 1rem;
+}
+
+/* Section styles */
+.cv-section {
+    padding: 4vh 0;
+    margin-bottom: 4vh;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Section titles with gradient underline */
+.section-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4rem;
+    height: 0.25rem;
+    background: var(--gradient-primary);
+    border-radius: 2px;
+}

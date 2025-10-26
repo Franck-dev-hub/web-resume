@@ -1,0 +1,225 @@
+/* Hero section with title and contact info */
+.cv-hero {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    padding: 4vh 0;
+    margin-bottom: 4vh;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+/* Slide in animation for hero content */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* RGB glitch effect animation */
+@keyframes rgbGlitch {
+    0% {
+        text-shadow: none;
+    }
+
+    10% {
+        text-shadow: 1px 0 red, -1px 0 cyan, 0 1px blue;
+    }
+
+    20% {
+        text-shadow: 2px -1px red, -2px 1px cyan, 1px 2px blue;
+    }
+
+    40% {
+        text-shadow: -1px 1px red, 1px -1px cyan, -2px 0 blue;
+    }
+
+    60% {
+        text-shadow: 0 0 red, 0 0 cyan, 0 0 blue;
+    }
+
+    80% {
+        text-shadow: 2px 1px red, -2px -1px cyan, 1px -2px blue;
+    }
+
+    100% {
+        text-shadow: none;
+    }
+}
+
+/* Main title styling */
+.hero-title {
+    font-size: 4vw;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding: 1vw 1.5vw;
+    background: var(--card-color);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px var(--shadow-color);
+    border: 2px solid var(--border-color);
+    text-align: center;
+    letter-spacing: 3px;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 0.25rem;
+    transition: all 0.3s ease;
+    animation: slideInLeft 1s ease-out;
+}
+
+.hero-title::after {
+    content: none;
+}
+
+.hero-title-card {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3vh;
+    overflow: hidden;
+    border-radius: 16px;
+    padding: 1px;
+}
+
+.hero-title-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg,
+            #ff6b6b, #4ecdc4, #45b7d1, #96ceb4,
+            #feca57, #ff9ff3, #54a0ff, #5f27cd,
+            #00d2d3, #ff9f43, #ff6b6b);
+    background-size: 300% 300%;
+    z-index: -1;
+    border-radius: 16px;
+    opacity: 0;
+    filter: blur(4px);
+    transition: opacity 1s ease;
+    animation: rgbBorder 6s ease-in-out infinite;
+}
+
+.hero-title-card:hover::before {
+    opacity: 1;
+}
+
+.hero-title-card:hover .hero-title {
+    animation: slideInLeft 1s ease-out, rgbGlitch 4s infinite;
+    transform: translateY(1px);
+    box-shadow: 0 12px 32px var(--shadow-color);
+}
+
+@keyframes rgbBorder {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 100% 50%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    75% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hero-summary {
+    font-size: 1.6vw;
+    color: var(--text-secondary);
+    margin-bottom: 2vw;
+    line-height: 1.6;
+}
+
+.hero-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.contact-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: var(--secondary-color);
+}
+
+.hero-avatar {
+    flex-shrink: 0;
+}
+
+.avatar-placeholder {
+    width: 15vw;
+    height: 15vw;
+    max-width: 200px;
+    max-height: 200px;
+    background: var(--gradient-secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    animation: pulse 2s infinite;
+    box-shadow: 0 8px 32px var(--shadow-color);
+}
+
+/* Profile image container and image styles */
+.profile-image-container {
+    position: fixed;
+    top: 12vw;
+    left: 4vw;
+    transform: none;
+    z-index: 150;
+    cursor: pointer;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.5);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
