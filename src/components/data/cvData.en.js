@@ -12,13 +12,13 @@ export const cvDataEn = {
         en_resume: "/assets/cv_eu.pdf"
     },
     skills: {
-        "Programming languages": ["C", "C++", "Rust", "C#", "Python", "Lua", "GDScript", "VBA"],
-        "Web development": ["HTML", "CSS", "JavaScript", "Node. js", "Markdown"],
+        "Programming languages": ["Python", "C", "Lua", "Rust", "GDScript"],
+        "Web development": ["HTML", "CSS", "JS", "Node.js", "Vite.js", "Markdown"],
         "Command Line & Shells": ["Shell", "Bash", "Zsh"],
-        "Databases": ["MySQL", "SQLite"],
+        "Databases": ["MySQL", "Mariadb"],
         "Data formats": ["JSON", "XML", "YAML", "TOML", "CSV"],
         "DevOps & Version Control": ["Git", "GitHub", "Docker"],
-        "IDEs & Text Editors": ["JetBrains", "Sublime Text", "VS Code", "Visual Studio", "Notepad++", "Vim", "Nano"],
+        "IDEs & Text Editors": ["NVim", "JetBrains", "Sublime Text", "VS Code", "Visual Studio", "Notepad++"],
         "Game Engines": ["Godot Engine", "Unity", "Unreal Engine"],
         "AI, Data Science & ML": ["NumPy", "Pandas", "Scikit-learn", "TensorFlow", "PyTorch", "Matplotlib", "Tkinter"],
         "Productivity and Collaboration": ["Obsidian", "Discord", "Slack", "Zoom"]
